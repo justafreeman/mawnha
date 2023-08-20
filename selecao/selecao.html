@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilo da navbar */
+body {
+    margin: 0 auto;
+    background-color: rgb(44, 43, 43);
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #504a4a;
+    padding: 10px 0;
+    margin: 0 0;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* Estilo da lista de Mawnhas */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.mawnha-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.mawnha-item {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s ease;
+}
+
+.mawnha-item:hover {
+    transform: scale(1.05);
+}
+
+.mawnha-item img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mawnha-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+    </style>
+    <title>Seleção de Mawnhas</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Mawnhas</a>
+    </nav>
+    <div class="container">
+        <h1>Seleção de Mawnhas</h1>
+        <div class="mawnha-list">
+            <a href="capitulo1.html" class="mawnha-item">
+                <img src="./selecao/Capa_SSS_class_revival_hunter.webp" alt="Capa Mawnha 1">
+                <p>SSS-Class Revival Hunter</p>
+            </a>
+            <a href="#" class="mawnha-item">
+                <img src="caminho/para/capa2.jpg" alt="Capa Mawnha 2">
+                <p>Nome do Mawnha 2</p>
+            </a>
+
+            <!-- Adicione mais capas e nomes aqui -->
+        </div>
+    </div>
+</body>
+</html>
